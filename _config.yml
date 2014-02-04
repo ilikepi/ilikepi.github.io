@@ -1,4 +1,19 @@
-name: Your New Jekyll Site
-markdown: redcarpet
-pygments: true
-exclude: [vendor]
+markdown:            redcarpet
+pygments:            true
+exclude:             ['Gemfile', 'Gemfile.lock', 'vendor']
+
+# Pretty style makes subdirectories for each post...at least it should...
+permalinks:          pretty
+
+# Site variables
+title:               '~ilikepi'
+tagline:             'No matter where you go, there you are.'
+description:         'Just another blog by just another developer...'
+url:                 'http://ilikepi.github.io'
+
+author:
+  name:              'James Blanding'
+  twitter:           'https://twitter.com/ilikemu'
+  github:            'https://github.com/ilikepi'
+
+paginate:            5
