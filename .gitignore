@@ -1,0 +1,9 @@
+# Machine-specific bundler files.
+.bundle/
+vendor/bundle*/
+
+# OS X Finder metadata.
+*.DS_Store
+
+# Vim swap files.
+*.sw[a-z]
