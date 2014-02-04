@@ -7,3 +7,6 @@ vendor/bundle*/
 
 # Vim swap files.
 *.sw[a-z]
+
+# Jekyll output.
+_site/
