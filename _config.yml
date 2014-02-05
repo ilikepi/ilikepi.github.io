@@ -3,7 +3,7 @@ pygments:            true
 exclude:             ['Gemfile', 'Gemfile.lock', 'vendor']
 
 # Pretty style makes subdirectories for each post...at least it should...
-permalinks:          pretty
+permalink:           pretty
 
 # Site variables
 title:               '~ilikepi'
