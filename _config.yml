@@ -16,4 +16,10 @@ author:
   twitter:           'https://twitter.com/ilikemu'
   github:            'https://github.com/ilikepi'
 
+theme:
+  author:
+    name:            '@mdo'
+    url:             'http://markdotto.com/'
+  url:               'https://github.com/poole/hyde'
+
 paginate:            5
