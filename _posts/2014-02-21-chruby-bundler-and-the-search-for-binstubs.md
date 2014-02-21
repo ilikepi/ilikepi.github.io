@@ -9,8 +9,8 @@ Recently at work we've been reevaluating our methods for managing rubies and
 gems.  [RVM][] and its gemset support have served us pretty well, but its
 complexity and rapidly rolling release cycle make it difficult to deal with
 problems when they arise.  Cooincidentally, I came across a pair of blog posts
-by Stefan Wrobal who been having similar thoughts to our own.  In his [first
-post][swrobel-part-1], he discusses his migration from RVM to
+by Stefan Wrobal who has been having similar thoughts to our own.  In his
+[first post][swrobel-part-1], he discusses his migration from RVM to
 [ruby-install][]+[chruby][].  In [part two][swrobel-part-2], he describes his
 bundler workflow.  These are excellent write-ups, and I was quite interested
 in adopting his methods save for one minor quibble: relative PATH entries.
@@ -23,8 +23,9 @@ resided in my current directory, but I kept forgetting to add the './' in
 front of the program's name.  After a little research, I discovered that by
 adding '.' to my PATH variable, I no longer needed this prefix.  If the
 program resided in my current directory, I could simply type its name alone
-(or more likely just enough characters to tab-complete its name) and the shell
-would find it.  A quick change to my shell startup file and that was that.
+(or more likely just enough characters to tab-complete its name), and the
+shell would find it.  A quick change to my shell startup file and that was
+that.
 
 A while later, after I leveled up once or twice, I came to understand why this
 is an incredibly bad idea.  If '.' represents whatever current directory you
@@ -104,8 +105,8 @@ But no worries, it's not like those are important commands.  Doh...
 Presently, I'm sticking with my hacked auto.sh script, but I suspect it will
 need some tweaks.  I believe Rubygems 2.2 has some changes in store for how it
 manages binstubs.  Additionally, the `rails new` command in Rails 4 creates a
-bin/ directory with a few binstubs of its own.  The search continues for a
-cleaner and more elegant solution.
+bin/ directory under Rails.root with a few binstubs of its own.  The search
+continues for a cleaner and more elegant solution.
 
 ## References
 
