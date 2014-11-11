@@ -10,6 +10,7 @@ title:               '~ilikepi'
 tagline:             'James Blanding'
 description:         'Just another blog by just another developer...'
 url:                 'http://ilikepi.github.io'
+baseurl:             /
 
 author:
   name:              'James Blanding'
