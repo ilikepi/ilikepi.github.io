@@ -1,5 +1,5 @@
 markdown:            redcarpet
-pygments:            true
+highlighter:         pygments
 exclude:             ['Gemfile', 'Gemfile.lock', 'vendor']
 
 # Pretty style makes subdirectories for each post...at least it should...
